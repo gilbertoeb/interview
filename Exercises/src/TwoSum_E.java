@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSum_E {
   /*
   Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -70,7 +70,7 @@ public class TwoSum {
     testingArray[3] = 15;
     int target = 9;
 
-    TwoSum testing = new TwoSum();
+    TwoSum_E testing = new TwoSum_E();
     int[] result = testing.twoSum(testingArray, target);
 
     System.out.println("Result: " + result[0] + " " + result[1]);

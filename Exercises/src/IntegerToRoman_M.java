@@ -50,7 +50,7 @@ Explanation:
 Constraints:
 1 <= num <= 3999
  */
-public class IntegerToRoman {
+public class IntegerToRoman_M {
 
   public String intToRoman(int num) {
       //
@@ -73,7 +73,7 @@ public class IntegerToRoman {
   }
 
   public static void main(String[] args) {
-    IntegerToRoman integerToRoman = new IntegerToRoman();
+    IntegerToRoman_M integerToRoman = new IntegerToRoman_M();
     integerToRoman.testing();
   }
 }

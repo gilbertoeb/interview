@@ -14,7 +14,7 @@ Example 2:
 Input: nums = [2,2,1,1,1,2,2]
 Output: 2
  */
-public class MajorityElement {
+public class MajorityElement_E {
 
   public int majorityElement(int[] nums) {
     int majority = nums.length / 2;
@@ -54,7 +54,7 @@ public class MajorityElement {
   }
 
   public static void main(String[] args) {
-    MajorityElement majorityElement = new MajorityElement();
+    MajorityElement_E majorityElement = new MajorityElement_E();
     majorityElement.testing();
   }
 }

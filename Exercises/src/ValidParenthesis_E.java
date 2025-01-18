@@ -27,7 +27,7 @@ Constraints:
 - 1 <= s.length <= 104
 - s consists of parentheses only '()[]{}'.
  */
-public class ValidParenthesis {
+public class ValidParenthesis_E {
 
   public void testing() {
     System.out.println(isValid1("()"));

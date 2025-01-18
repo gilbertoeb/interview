@@ -42,7 +42,7 @@ Constraints:
 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 It is guaranteed that s is a valid roman numeral in the range [1, 3999].
  */
-public class RomanToInt {
+public class RomanToInt_E {
 
 //  public int romanToInt(String s) {
 //    int res = 0;
@@ -116,7 +116,7 @@ public class RomanToInt {
   }
 
   public static void main(String[] args) {
-    RomanToInt romanToInt = new RomanToInt();
+    RomanToInt_E romanToInt = new RomanToInt_E();
     romanToInt.testing();
   }
 }

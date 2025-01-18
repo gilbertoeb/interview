@@ -23,7 +23,7 @@ Constraints:
 -2^31 <= nums[i] <= 2^31 - 1
 0 <= k <= 10^5
  */
-public class RotateArray {
+public class RotateArray_M {
 
   public int[] rotateArray(int[] nums, int k) {
 
@@ -79,7 +79,7 @@ public class RotateArray {
   }
 
   public static void main(String[] args) {
-    RotateArray rotateArray = new RotateArray();
+    RotateArray_M rotateArray = new RotateArray_M();
     rotateArray.testing();
   }
 }

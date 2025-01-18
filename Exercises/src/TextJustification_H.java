@@ -96,7 +96,7 @@ words[i].length <= maxWidth
  * Return the result list:
  *    <p>-After processing all words, return the res list containing the justified lines.
  */
-public class TextJustification {
+public class TextJustification_H {
 
   public List<String> fullJustify(String[] words, int maxWidth) {
     List<String> res = new ArrayList<>();
@@ -148,7 +148,7 @@ public class TextJustification {
   }
 
     public static void main(String[] args) {
-        TextJustification textJustification = new TextJustification();
+        TextJustification_H textJustification = new TextJustification_H();
         textJustification.testing();
     }
 }

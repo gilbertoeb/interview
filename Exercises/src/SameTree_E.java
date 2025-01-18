@@ -19,7 +19,7 @@ Constraints:
 -> The number of nodes in both trees is in the range [0, 100].
 -> -10^4 <= Node.val <= 10^4
  */
-public class SameTree {
+public class SameTree_E {
 
     public static class TreeNode {
         int val;
@@ -66,7 +66,7 @@ public class SameTree {
     }
 
     public static void main(String[] args) {
-        SameTree sameTree = new SameTree();
+        SameTree_E sameTree = new SameTree_E();
         sameTree.testing();
     }
 

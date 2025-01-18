@@ -42,7 +42,7 @@ Constraints:
 -> -100 <= nums[i] <= 100
 -> nums is sorted in non-decreasing order.
  */
-public class RemoveDuplicatesFromSortedArray {
+public class RemoveDuplicatesFromSortedArray1_E {
 
 //  public int removeDuplicates(int[] nums) {
 //    Set<Integer> set = new HashSet<>();
@@ -78,8 +78,8 @@ public class RemoveDuplicatesFromSortedArray {
   }
 
   public static void main(String[] args) {
-    RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray =
-        new RemoveDuplicatesFromSortedArray();
+    RemoveDuplicatesFromSortedArray1_E removeDuplicatesFromSortedArray =
+        new RemoveDuplicatesFromSortedArray1_E();
     removeDuplicatesFromSortedArray.testing();
   }
 }
