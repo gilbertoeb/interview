@@ -20,7 +20,7 @@ Constraints:
 -1000 <= nums[i] <= 1000
 -10^7 <= k <= 10^7
  */
-public class SubarraySumEqualsK {
+public class SubarraySumEqualsK_M {
   //  public int subarraySum(int[] nums, int k) {
   //    int count = 0;
   //    int sum = 0;
@@ -82,7 +82,7 @@ public class SubarraySumEqualsK {
   }
 
   public static void main(String[] args) {
-    SubarraySumEqualsK obj = new SubarraySumEqualsK();
+    SubarraySumEqualsK_M obj = new SubarraySumEqualsK_M();
     System.out.println(obj.subarraySum(new int[] {1, 1, 1}, 2)); // 2
     System.out.println(obj.subarraySum(new int[] {1, 2, 0, 3}, 3)); // 4
     //    System.out.println(obj.subarraySum(new int[] {1, 2, 3, 0, 2, 1, 1, 1}, 3)); // 2
