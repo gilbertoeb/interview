@@ -200,7 +200,7 @@ public class TextJustification_H {
     //    int maxWidth2 = 16;
     //    int maxWidth3 = 20;
     System.out.println(fullJustify(words1, maxWidth1));
-    System.out.println(fullJustify1(words1, maxWidth1));
+//    System.out.println(fullJustify1(words1, maxWidth1));
     //    System.out.println(fullJustify(words2, maxWidth2));
     //    System.out.println(fullJustify(words3, maxWidth3));
   }
