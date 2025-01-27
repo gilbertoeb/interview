@@ -104,42 +104,42 @@ words[i].length <= maxWidth
  */
 public class TextJustification_H {
 
-    public List<String> fullJustify1(String[] words, int maxWidth) {
-      List<String> res = new ArrayList<>();
-      int i = 0;
-      while (i < words.length) {
-        int j = i + 1;
-        int len = words[i].length();
-        while (j < words.length && len + words[j].length() + j - i <= maxWidth) {
-          len += words[j++].length();
-        }
-        StringBuilder sb = new StringBuilder();
-        int diff = j - i - 1;
-        if (j == words.length || diff == 0) {
-          for (int k = i; k < j; k++) {
-            sb.append(words[k]).append(" ");
-          }
-          sb.deleteCharAt(sb.length() - 1);
-          while (sb.length() < maxWidth) {
-            sb.append(" ");
-          }
-        } else {
-          int spaces = (maxWidth - len) / diff;
-          int r = (maxWidth - len) % diff;
-          for (int k = i; k < j; k++) {
-            sb.append(words[k]);
-            if (k < j - 1) {
-              for (int l = 0; l <= (spaces + ((k - i) < r ? 1 : 0)); l++) {
-                sb.append(" ");
-              }
-            }
-          }
-        }
-        res.add(sb.toString());
-        i = j;
-      }
-      return res;
-    }
+//    public List<String> fullJustify1(String[] words, int maxWidth) {
+//      List<String> res = new ArrayList<>();
+//      int i = 0;
+//      while (i < words.length) {
+//        int j = i + 1;
+//        int len = words[i].length();
+//        while (j < words.length && len + words[j].length() + j - i <= maxWidth) {
+//          len += words[j++].length();
+//        }
+//        StringBuilder sb = new StringBuilder();
+//        int diff = j - i - 1;
+//        if (j == words.length || diff == 0) {
+//          for (int k = i; k < j; k++) {
+//            sb.append(words[k]).append(" ");
+//          }
+//          sb.deleteCharAt(sb.length() - 1);
+//          while (sb.length() < maxWidth) {
+//            sb.append(" ");
+//          }
+//        } else {
+//          int spaces = (maxWidth - len) / diff;
+//          int r = (maxWidth - len) % diff;
+//          for (int k = i; k < j; k++) {
+//            sb.append(words[k]);
+//            if (k < j - 1) {
+//              for (int l = 0; l <= (spaces + ((k - i) < r ? 1 : 0)); l++) {
+//                sb.append(" ");
+//              }
+//            }
+//          }
+//        }
+//        res.add(sb.toString());
+//        i = j;
+//      }
+//      return res;
+//    }
 
   public List<String> fullJustify(String[] words, int maxWidth) {
     List<String> res = new ArrayList<>();
