@@ -58,6 +58,46 @@ public class ContiguousArray_M {
     return maxLength;
   }
 
+  public int findMaxLength1(int[] nums) {
+    int maxLength = 0;
+    int count0;
+    int count1;
+    int len = nums.length;
+
+    for (int i = 0; i < len; i++) {
+      count0 = 0;
+      count1 = 0;
+
+      for (int j = i; j < len; j++) {
+        if (nums[j] == 0) count0++;
+        else count1++;
+        if (count0 == count1)
+          maxLength = Math.max(maxLength, j - i + 1);
+      }
+    }
+
+    return maxLength;
+  }
+
+  public int findMaxLength2(int[] nums) {
+
+    int maxLength = 0;
+    int runningSum = 0;
+    Map<Integer, Integer> sumIndices = new HashMap<>();
+    sumIndices.put(0, -1);
+
+    for (int i = 0; i < nums.length; i++) {
+      runningSum += nums[i] == 0 ? -1 : 1;
+      if (sumIndices.containsKey(runningSum)) {
+        maxLength = Math.max(maxLength, i - sumIndices.get(runningSum));
+      } else {
+        sumIndices.put(runningSum, i);
+      }
+    }
+
+    return maxLength;
+  }
+
   public void testing() {
     System.out.println(findMaxLength(new int[] {0, 1}));
     System.out.println(findMaxLength(new int[] {0, 1, 0, 1, 0, 1, 1, 1, 0, 1}));
