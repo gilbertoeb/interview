@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 /*
 A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all
 non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
@@ -26,6 +28,17 @@ s consists only of printable ASCII characters.
 public class ValidPalindrome_125_E {
   public boolean isPalindrome(String s) {
     // Method implementation will go here
+
+    s = s.toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
+
+    int j = s.length() - 1;
+    for (int i = 0; i < s.length(); i++) {
+      if (s.charAt(i) != s.charAt(j)) {
+        return false;
+      }
+      j--;
+    }
+    return true;
   }
 
   public static void main(String[] args) {
