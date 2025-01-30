@@ -3,27 +3,27 @@
 ---
 
 ## **1. Two Pointers (Arrays, Strings, Fast & Slow Pointer)**
-**Ordered from easiest to hardest:**
+**Ordered from easy to hard:**
 1. [Valid Palindrome (125) – E](https://leetcode.com/problems/valid-palindrome/)
 2. [Remove Element (27) – E](https://leetcode.com/problems/remove-element/)
 3. [Remove Duplicates from Sorted Array (26) – E](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 4. [Two Sum (1) – E](https://leetcode.com/problems/two-sum/)
 5. [Merge Sorted Array (88) – E](https://leetcode.com/problems/merge-sorted-array/)
-6. [Sort Colors (75) – M](https://leetcode.com/problems/sort-colors/)
-7. [Container With Most Water (11) – M](https://leetcode.com/problems/container-with-most-water/)
-8. [3Sum (15) – M](https://leetcode.com/problems/3sum/)
-9. [Linked List Cycle (141) – E (Fast & Slow Pointer)](https://leetcode.com/problems/linked-list-cycle/)
-10. [Palindrome Linked List (234) – E (Fast & Slow Pointer)](https://leetcode.com/problems/palindrome-linked-list/)
+6. [Linked List Cycle (141) – E (Fast & Slow Pointer)](https://leetcode.com/problems/linked-list-cycle/)
+7. [Palindrome Linked List (234) – E (Fast & Slow Pointer)](https://leetcode.com/problems/palindrome-linked-list/)
+8. [Sort Colors (75) – M](https://leetcode.com/problems/sort-colors/)
+9. [Container With Most Water (11) – M](https://leetcode.com/problems/container-with-most-water/)
+10. [3Sum (15) – M](https://leetcode.com/problems/3sum/)
 11. [Remove Nth Node From End of List (19) – M (Fast & Slow Pointer)](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 12. [Longest Substring Without Repeating Characters (3) – M (Can also use Sliding Window)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-13. [Trapping Rain Water (42) – H](https://leetcode.com/problems/trapping-rain-water/)
-14. [Minimum Window Substring (76) – H (Can also use Sliding Window)](https://leetcode.com/problems/minimum-window-substring/)
-15. [Subarray Product Less Than K (713) – M (Can also use Sliding Window)](https://leetcode.com/problems/subarray-product-less-than-k/)
+13. [Subarray Product Less Than K (713) – M (Can also use Sliding Window)](https://leetcode.com/problems/subarray-product-less-than-k/)
+14. [Trapping Rain Water (42) – H](https://leetcode.com/problems/trapping-rain-water/)
+15. [Minimum Window Substring (76) – H (Can also use Sliding Window)](https://leetcode.com/problems/minimum-window-substring/)
 
 ---
 
 ## **2. Sliding Window (Arrays, Strings, Hash Tables)**
-**Ordered from easiest to hardest:**
+**Ordered from easy to hard:**
 1. [Maximum Subarray (53) – E](https://leetcode.com/problems/maximum-subarray/)
 2. [Best Time to Buy and Sell Stock (121) – E](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 3. [Maximum Average Subarray I (643) – E](https://leetcode.com/problems/maximum-average-subarray-i/)
@@ -43,7 +43,7 @@
 ---
 
 ## **3. Tree and Graph Depth First Search (Matrix Traversal)**
-**Ordered from easiest to hardest:**
+**Ordered from easy to hard:**
 1. [Maximum Depth of Binary Tree (104) – E](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 2. [Path Sum (112) – E](https://leetcode.com/problems/path-sum/)
 3. [Flood Fill (733) – E](https://leetcode.com/problems/flood-fill/)
@@ -55,15 +55,15 @@
 9. [Word Search (79) – M](https://leetcode.com/problems/word-search/)
 10. [Target Sum (494) – M](https://leetcode.com/problems/target-sum/)
 11. [Surrounded Regions (130) – M](https://leetcode.com/problems/surrounded-regions/)
-12. [Binary Tree Maximum Path Sum (124) – H](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-13. [Course Schedule (207) – M (Can also use Topological Sort)](https://leetcode.com/problems/course-schedule/)
-14. [Walls and Gates (286) – M](https://leetcode.com/problems/walls-and-gates/)
-15. [Pacific Atlantic Water Flow (417) – M](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+12. [Course Schedule (207) – M (Can also use Topological Sort)](https://leetcode.com/problems/course-schedule/)
+13. [Walls and Gates (286) – M](https://leetcode.com/problems/walls-and-gates/)
+14. [Pacific Atlantic Water Flow (417) – M](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+15. [Binary Tree Maximum Path Sum (124) – H](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 ---
 
 ## **4. Tree and Graph Breadth First Search (Queue, Subsets, Matrix Traversal, Topological Sort)**
-**Ordered from easiest to hardest:**
+**Ordered from easy to hard:**
 1. [Symmetric Tree (101) – E](https://leetcode.com/problems/symmetric-tree/)
 2. [Minimum Depth of Binary Tree (111) – E](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 3. [Binary Tree Level Order Traversal (102) – M](https://leetcode.com/problems/binary-tree-level-order-traversal/)
@@ -83,7 +83,7 @@
 ---
 
 ## **5. Binary Search (Arrays)**
-**Ordered from easiest to hardest:**
+**Ordered from easy to hard:**
 1. [Binary Search (704) – E](https://leetcode.com/problems/binary-search/)
 2. [Search Insert Position (35) – E](https://leetcode.com/problems/search-insert-position/)
 3. [Sqrt(x) (69) – E](https://leetcode.com/problems/sqrtx/)
@@ -96,14 +96,14 @@
 10. [H-Index II (275) – M](https://leetcode.com/problems/h-index-ii/)
 11. [Koko Eating Bananas (875) – M](https://leetcode.com/problems/koko-eating-bananas/)
 12. [Capacity To Ship Packages Within D Days (1011) – M](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
-13. [Split Array Largest Sum (410) – H](https://leetcode.com/problems/split-array-largest-sum/)
-14. [Median of Two Sorted Arrays (4) – H](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-15. [Time Based Key-Value Store (981) – M](https://leetcode.com/problems/time-based-key-value-store/)
+13. [Time Based Key-Value Store (981) – M](https://leetcode.com/problems/time-based-key-value-store/)
+14. [Split Array Largest Sum (410) – H](https://leetcode.com/problems/split-array-largest-sum/)
+15. [Median of Two Sorted Arrays (4) – H](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ---
 
 ## **6. Interval Merge**
-**Ordered from easiest to hardest:**
+**Ordered from easy to hard:**
 1. [Meeting Rooms (252) – E](https://leetcode.com/problems/meeting-rooms/)
 2. [Merge Intervals (56) – M](https://leetcode.com/problems/merge-intervals/)
 3. [Insert Interval (57) – M](https://leetcode.com/problems/insert-interval/)
@@ -118,7 +118,7 @@
 ---
 
 ## **7. Recursion/Backtracking**
-**Ordered from easiest to hardest:**
+**Ordered from easy to hard:**
 1. [Generate Parentheses (22) – M](https://leetcode.com/problems/generate-parentheses/)
 2. [Subsets (78) – M](https://leetcode.com/problems/subsets/)
 3. [Permutations (46) – M](https://leetcode.com/problems/permutations/)
@@ -129,17 +129,17 @@
 8. [Permutations II (47) – M](https://leetcode.com/problems/permutations-ii/)
 9. [Combination Sum II (40) – M](https://leetcode.com/problems/combination-sum-ii/)
 10. [Word Search (79) – M](https://leetcode.com/problems/word-search/)
-11. [Word Break II (140) – H](https://leetcode.com/problems/word-break-ii/)
-12. [N-Queens (51) – H](https://leetcode.com/problems/n-queens/)
-13. [Sudoku Solver (37) – H](https://leetcode.com/problems/sudoku-solver/)
-14. [Partition to K Equal Sum Subsets (698) – H](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
-15. [Beautiful Arrangement (526) – M](https://leetcode.com/problems/beautiful-arrangement/)
+11. [Beautiful Arrangement (526) – M](https://leetcode.com/problems/beautiful-arrangement/)
+12. [Word Break II (140) – H](https://leetcode.com/problems/word-break-ii/)
+13. [N-Queens (51) – H](https://leetcode.com/problems/n-queens/)
+14. [Sudoku Solver (37) – H](https://leetcode.com/problems/sudoku-solver/)
+15. [Partition to K Equal Sum Subsets (698) – H](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 
 ---
 
 ## **Summary of Problem Counts by Pattern**
 | Pattern                              | Number of Problems |
-|--------------------------------------|---------------------|
+|--------------------------------------|--------------------|
 | Two Pointers                         | 15                 |
 | Sliding Window                       | 15                 |
 | Tree and Graph Depth First Search    | 15                 |
