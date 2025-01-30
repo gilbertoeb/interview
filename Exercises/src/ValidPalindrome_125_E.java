@@ -48,5 +48,7 @@ public class ValidPalindrome_125_E {
     System.out.println(solution.isPalindrome("A man, a plan, a canal: Panama")); // true
     System.out.println(solution.isPalindrome("race a car")); // false
     System.out.println(solution.isPalindrome(" ")); // true
+    System.out.println(solution.isPalindrome("anita lava la tina")); // true
+    System.out.println(solution.isPalindrome("Hanah")); // true
   }
 }
