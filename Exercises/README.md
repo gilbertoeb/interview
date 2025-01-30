@@ -1,11 +1,9 @@
-# LeetCode Study Guide
-
-This study guide follows a structured approach to solving LeetCode problems, categorized by algorithmic patterns and ordered by difficulty.
+# **Study Guide for Coding Problems**
 
 ---
 
 ## **1. Two Pointers (Arrays, Strings, Fast & Slow Pointer)**
-Ordered from easiest to hardest:
+**Ordered from easiest to hardest:**
 1. [Valid Palindrome (125) – E](https://leetcode.com/problems/valid-palindrome/)
 2. [Remove Element (27) – E](https://leetcode.com/problems/remove-element/)
 3. [Remove Duplicates from Sorted Array (26) – E](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -25,7 +23,7 @@ Ordered from easiest to hardest:
 ---
 
 ## **2. Sliding Window (Arrays, Strings, Hash Tables)**
-Ordered from easiest to hardest:
+**Ordered from easiest to hardest:**
 1. [Maximum Subarray (53) – E](https://leetcode.com/problems/maximum-subarray/)
 2. [Best Time to Buy and Sell Stock (121) – E](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 3. [Maximum Average Subarray I (643) – E](https://leetcode.com/problems/maximum-average-subarray-i/)
@@ -45,7 +43,7 @@ Ordered from easiest to hardest:
 ---
 
 ## **3. Tree and Graph Depth First Search (Matrix Traversal)**
-Ordered from easiest to hardest:
+**Ordered from easiest to hardest:**
 1. [Maximum Depth of Binary Tree (104) – E](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 2. [Path Sum (112) – E](https://leetcode.com/problems/path-sum/)
 3. [Flood Fill (733) – E](https://leetcode.com/problems/flood-fill/)
@@ -64,8 +62,28 @@ Ordered from easiest to hardest:
 
 ---
 
-## **4. Binary Search (Arrays)**
-Ordered from easiest to hardest:
+## **4. Tree and Graph Breadth First Search (Queue, Subsets, Matrix Traversal, Topological Sort)**
+**Ordered from easiest to hardest:**
+1. [Symmetric Tree (101) – E](https://leetcode.com/problems/symmetric-tree/)
+2. [Minimum Depth of Binary Tree (111) – E](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+3. [Binary Tree Level Order Traversal (102) – M](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+4. [Clone Graph (133) – M (Can also use DFS)](https://leetcode.com/problems/clone-graph/)
+5. [Number of Islands (200) – M (Can also use DFS)](https://leetcode.com/problems/number-of-islands/)
+6. [Perfect Squares (279) – M](https://leetcode.com/problems/perfect-squares/)
+7. [Minesweeper (529) – M](https://leetcode.com/problems/minesweeper/)
+8. [Open the Lock (752) – M](https://leetcode.com/problems/open-the-lock/)
+9. [Rotting Oranges (994) – M](https://leetcode.com/problems/rotting-oranges/)
+10. [Shortest Path in Binary Matrix (1091) – M](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+11. [Subsets (78) – M (Can also use Backtracking)](https://leetcode.com/problems/subsets/)
+12. [Course Schedule (207) – M (Can also use Topological Sort)](https://leetcode.com/problems/course-schedule/)
+13. [Nearest Exit from Entrance in Maze (1926) – M](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
+14. [All Nodes Distance K in Binary Tree (863) – M](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+15. [Word Ladder (127) – H](https://leetcode.com/problems/word-ladder/)
+
+---
+
+## **5. Binary Search (Arrays)**
+**Ordered from easiest to hardest:**
 1. [Binary Search (704) – E](https://leetcode.com/problems/binary-search/)
 2. [Search Insert Position (35) – E](https://leetcode.com/problems/search-insert-position/)
 3. [Sqrt(x) (69) – E](https://leetcode.com/problems/sqrtx/)
@@ -84,4 +102,52 @@ Ordered from easiest to hardest:
 
 ---
 
-The full study guide continues with other categories like Recursion, Backtracking, Dynamic Programming, and Graph Traversal.
+## **6. Interval Merge**
+**Ordered from easiest to hardest:**
+1. [Meeting Rooms (252) – E](https://leetcode.com/problems/meeting-rooms/)
+2. [Merge Intervals (56) – M](https://leetcode.com/problems/merge-intervals/)
+3. [Insert Interval (57) – M](https://leetcode.com/problems/insert-interval/)
+4. [Non-overlapping Intervals (435) – M](https://leetcode.com/problems/non-overlapping-intervals/)
+5. [Meeting Rooms II (253) – M](https://leetcode.com/problems/meeting-rooms-ii/)
+6. [Minimum Number of Arrows to Burst Balloons (452) – M](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+7. [Interval List Intersections (986) – M](https://leetcode.com/problems/interval-list-intersections/)
+8. [Remove Covered Intervals (1288) – M](https://leetcode.com/problems/remove-covered-intervals/)
+9. [Employee Free Time (759) – H](https://leetcode.com/problems/employee-free-time/)
+10. [Data Stream as Disjoint Intervals (352) – H](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
+
+---
+
+## **7. Recursion/Backtracking**
+**Ordered from easiest to hardest:**
+1. [Generate Parentheses (22) – M](https://leetcode.com/problems/generate-parentheses/)
+2. [Subsets (78) – M](https://leetcode.com/problems/subsets/)
+3. [Permutations (46) – M](https://leetcode.com/problems/permutations/)
+4. [Letter Combinations of a Phone Number (17) – M](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+5. [Combination Sum (39) – M](https://leetcode.com/problems/combination-sum/)
+6. [Palindrome Partitioning (131) – M](https://leetcode.com/problems/palindrome-partitioning/)
+7. [Restore IP Addresses (93) – M](https://leetcode.com/problems/restore-ip-addresses/)
+8. [Permutations II (47) – M](https://leetcode.com/problems/permutations-ii/)
+9. [Combination Sum II (40) – M](https://leetcode.com/problems/combination-sum-ii/)
+10. [Word Search (79) – M](https://leetcode.com/problems/word-search/)
+11. [Word Break II (140) – H](https://leetcode.com/problems/word-break-ii/)
+12. [N-Queens (51) – H](https://leetcode.com/problems/n-queens/)
+13. [Sudoku Solver (37) – H](https://leetcode.com/problems/sudoku-solver/)
+14. [Partition to K Equal Sum Subsets (698) – H](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+15. [Beautiful Arrangement (526) – M](https://leetcode.com/problems/beautiful-arrangement/)
+
+---
+
+## **Summary of Problem Counts by Pattern**
+| Pattern                              | Number of Problems |
+|--------------------------------------|---------------------|
+| Two Pointers                         | 15                 |
+| Sliding Window                       | 15                 |
+| Tree and Graph Depth First Search    | 15                 |
+| Tree and Graph Breadth First Search  | 15                 |
+| Binary Search                        | 15                 |
+| Interval Merge                       | 10                 |
+| Recursion/Backtracking               | 15                 |
+
+---
+
+This guide ensures you progress from **easier to harder problems** within each pattern, with direct links to each problem for easy access. Good luck!
