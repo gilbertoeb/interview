@@ -26,7 +26,7 @@
 ## **2. Sliding Window (Arrays, Strings, Hash Tables)**
 **Ordered from easy to hard:**
 - [x] 1 [Maximum Subarray (53) – E](https://leetcode.com/problems/maximum-subarray/)
-- [ ] 2 [Best Time to Buy and Sell Stock (121) – E](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] 2 [Best Time to Buy and Sell Stock (121) – E](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [ ] 3 [Maximum Average Subarray I (643) – E](https://leetcode.com/problems/maximum-average-subarray-i/)
 - [ ] 4 [Longest Substring Without Repeating Characters (3) – M](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [ ] 5 [Minimum Size Subarray Sum (209) – M](https://leetcode.com/problems/minimum-size-subarray-sum/)
