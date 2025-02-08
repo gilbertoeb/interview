@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 /*
 Given a string s, find the length of the longest
 substring without repeating characters.
@@ -24,8 +27,21 @@ s consists of English letters, digits, symbols and spaces.
  */
 public class LongestSubstringWithoutRepeatingCharacters_3_M {
   public int lengthOfLongestSubstring(String s) {
-    // Implementation will go here
-    return 0;
+    int maxSubString = 0;
+    int left = 0;
+    int n = s.length();
+    Set<Character> uniqueSubstring = new HashSet<>();
+
+    for (int right = 0; right < n; right++) {
+      while (uniqueSubstring.contains(s.charAt(right))) {
+        uniqueSubstring.remove(s.charAt(left));
+        left++;
+      }
+      uniqueSubstring.add(s.charAt(right));
+      maxSubString = Math.max(maxSubString, uniqueSubstring.size());
+    }
+
+    return maxSubString;
   }
 
   public static void main(String[] args) {
