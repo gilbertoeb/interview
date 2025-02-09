@@ -30,7 +30,7 @@
 - [x] 3 [Maximum Average Subarray I (643) – E](https://leetcode.com/problems/maximum-average-subarray-i/)
 - [x] 4 [Longest Substring Without Repeating Characters (3) – M](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [x] 5 [Minimum Size Subarray Sum (209) – M](https://leetcode.com/problems/minimum-size-subarray-sum/)
-- [ ] 6 [Fruit Into Baskets (904) – M](https://leetcode.com/problems/fruit-into-baskets/)
+- [x] 6 [Fruit Into Baskets (904) – M](https://leetcode.com/problems/fruit-into-baskets/)
 - [ ] 7 [Find All Anagrams in a String (438) – M](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - [ ] 8 [Longest Repeating Character Replacement (424) – M](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] 9 [Permutation in String (567) – M](https://leetcode.com/problems/permutation-in-string/)
