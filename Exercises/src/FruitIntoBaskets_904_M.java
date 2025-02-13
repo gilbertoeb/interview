@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /*
 You are visiting a farm that has a single row of fruit trees arranged from left to right.
 The trees are represented by an integer array fruits[] where fruits[i] is the type of fruit
@@ -40,8 +43,29 @@ public class FruitIntoBaskets_904_M {
   }
 
   public static int totalFruit(int[] fruits) {
-    // Skeleton method for the implementation
-    return 0;
+
+    Map<Integer, Integer> count = new HashMap<>();
+    int left = 0;
+    int max = 0;
+
+    for (int right = 0; right < fruits.length; right++) {
+      int fruit = fruits[right];
+      count.put(fruit, count.getOrDefault(fruit, 0) + 1);
+
+      while (count.size() > 2) {
+        int leftFruit = fruits[left];
+        count.put(leftFruit, count.get(leftFruit) - 1);
+
+        if (count.get(leftFruit) == 0) {
+          count.remove(leftFruit);
+        }
+
+        left++;
+      }
+      max = Math.max(max, right - left + 1);
+    }
+
+    return max;
   }
 
   public static void testFruitIntoBaskets() {
